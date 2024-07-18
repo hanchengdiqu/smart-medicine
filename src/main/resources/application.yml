@@ -2,8 +2,8 @@ spring:
   # 数据源配置
   datasource:
     username: root
-    password: 123456
-    url: jdbc:mysql://127.0.0.1:3306/smart-medicine?serverTimezone=Hongkong&useAffectedRows=true&characterEncoding=utf-8
+    password: woailinqiufen2046
+    url: jdbc:mysql://10.147.17.66:22003/smart-medicine?serverTimezone=Hongkong&useAffectedRows=true&characterEncoding=utf-8
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
   jackson:
